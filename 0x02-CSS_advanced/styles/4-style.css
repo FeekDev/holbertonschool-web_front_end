@@ -4,7 +4,7 @@ html {
 
 body {
     color: var(--text-color);
-    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: var(--font-family-base);
 }
 
 a {
@@ -35,5 +35,5 @@ a {
 }
 
 h6 {
-    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: var(--font-family-title);
 }
