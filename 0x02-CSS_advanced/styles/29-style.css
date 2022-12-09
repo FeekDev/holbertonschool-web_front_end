@@ -190,21 +190,6 @@
     color: var(--nav-item-link-hover);
   }
 
-  .nav .nav-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 0.2rem;
-  }
-
-  .nav .nav-item:hover .nav-link::before {
-    background-color: var(--color-primary);
-    width: 100%;
-  }
-
   ul.row{
     margin: 0;
     padding: 0;
@@ -316,3 +301,18 @@
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
    }
+
+   .nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
+  }
+
+  .nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
+  }
