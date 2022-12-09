@@ -101,9 +101,9 @@
   }
 
   .button:hover {
-    color: var(--button-hover-color) var(--transition-property);
+    color: var(--transition-property);
     text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-hover-background) var(--transition-property);
+    background-color: var(--transition-property);
     transition: var(--transition-duration);
   
 }
