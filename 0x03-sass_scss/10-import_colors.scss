@@ -1,0 +1,16 @@
+/* import */
+$red: red;
+$green: green;
+$blue: blue;
+
+.red {
+    @import '$red';
+}
+
+.green {
+    @import '$green';
+}
+
+.blue {
+    @import '$blue';
+}
