@@ -1,12 +1,13 @@
 /* margin property*/
-$body_value: 10px;
-@mixin body($margin-left, $body_value) {
-    $margin-left: $body_value;
-    $margin-left: $body_value;
+@mixin margin($px) {
+    margin-left: $px;
+    margin-right: $px;
 }
 
-$div_value: 15;
-@mixin div ($div_value) {
-    $margin-left: $div_value;
-    margin-right: $div_value;
+body {
+    @include margin(10px)
+}
+
+div {
+    @include margin(15px)
 }
