@@ -1,0 +1,8 @@
+/* Nested class .red inside body */
+$body_color: #3D3D3D;
+$red_color: #FF0000;
+body {
+    color: $body_color;
+    body > .red {
+      color: $red_color; }
+}
