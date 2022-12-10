@@ -1,8 +1,7 @@
 /* nested hover button */
-$text_color: #FF0000;
 button {
-    color: $text_color;
+    color: #FF0000;
     &:hover {
-        color: $text_color; 
+        color: #FF0000; 
     }
 }
