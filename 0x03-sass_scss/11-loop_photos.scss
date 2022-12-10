@@ -1,0 +1,6 @@
+/* loop each */
+@import 'photos';
+@each $photo in $photos {
+    .photo-#{$photo} {
+        background: image-url("photos/#{photo}.jpg") no-repeat; };
+}
