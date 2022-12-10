@@ -2,6 +2,6 @@
 $text_color: #FF0000;
 button {
     color: $text_color;
-    :hover {
+    &:hover {
         color: $text_color; }
 }
