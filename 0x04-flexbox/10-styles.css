@@ -537,7 +537,7 @@ ul.row {
 }
 
 .section-hero .section-body {
-    padding: var(--section-body-padding);
+    padding: 10rem 4rem;
 }
 
 .section-hero .section-category {
