@@ -394,7 +394,7 @@ ul.row {
     display: flex;
 }
 
-.nav-item+.nav-item {
+.nav-item + .nav-item {
     margin: var(--nav-item-margin);
 }
 
